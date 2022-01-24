@@ -1,0 +1,35 @@
+User Story
+
+Register = user mendaftarkan diri di aplikasi
+                   1. Facebook.com
+                   2.  Gmail.com
+                   3. Twitter.com
+Login = user dapat memasuki aplikasi 
+                   1. Facebook.com
+                   2.  Gmail.com
+                   3. Twitter.com0
+
+FRONT END
+USE CASE  
+user story frontend
+* register :
+1. username, password, email
+2. gmail
+3. facebook
+4. twitter
+halaman utama atau halaman profile
+* halaman buku :
+1. update buku
+2. read buku
+* beli buku :
+1. beli buku
+2. pembayaran setelah beli buku 
+3. pembayaran lewat via bank
+* searching
+1. nyari buku yang ingin dibeli
+* filter buku
+1. mencari buku yang terbaik didalam daftar buku
+* login
+1. username
+2. password
+masuk ke halaman pertama

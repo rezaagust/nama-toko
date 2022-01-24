@@ -1,0 +1,45 @@
+toko buku --->
+   -pembeli buku
+   -produk buku
+
+backend:
+-nodemon
+-express
+-cors
+-body-parser
+-mysql
+
+CARA BUAT BACKEND
+1. buat folder
+2. buka visual studio code
+3. npm init -y
+4. package.json
+5. install, npm i express body-parser mysql cors
+
+
+
+DATABASE
+1.pembeli buku (nama tabel : buyer)
+  id -> int
+  nomor_anggota -> string
+  nama -> string
+  username -> string
+  password -> string
+  role -> string
+  created -> tanggal
+  updated -> tanggal
+
+2.produk buku (nama tabel : product)
+  id -> int
+  nomor-produk -> string
+  judul-buku -> string
+  jumlah-halaman -> string
+  genre -> string
+  tahun -> string
+  penerbit -> string
+  pengarang -> string
+  isbm -> string
+  harga -> string
+  created -> tanggal
+  updated -> tanggal
+   
