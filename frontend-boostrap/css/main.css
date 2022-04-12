@@ -1,0 +1,68 @@
+/* Global CSS */
+:root {
+    /* Fonts */
+  --font-default: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: 'Source Sans Pro', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+
+  /* Colors */
+  /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
+
+  /* Default text color */
+  --color-default: #1a1f24;
+  --color-default-rgb: 26, 31, 36;
+
+  /* Defult links color */
+  --color-links: #0ea2bd;
+  --color-links-hover: #1ec3e0;
+
+  /* Primay colors */
+  --color-primary: #0ea2bd;
+  --color-primary-light: #1ec3e0;
+  --color-primary-dark: #0189a1;
+
+  --color-primary-rgb: 14, 162, 189;
+  --color-primary-light-rgb: 30, 195, 224;
+  --color-primary-dark-rgb: 1, 137, 161;
+
+  /* Secondary colors */
+  --color-secondary: #485664;
+  --color-secondary-light: #8f9fae;
+  --color-secondary-dark: #3a4753;
+
+  --color-secondary-rgb: 72, 86, 100;
+  --color-secondary-light-rgb: 143, 159, 174;
+  --color-secondary-dark-rgb: 58, 71, 83;
+
+    scroll-behavior: smooth;
+}
+
+*, * ::before, *::after {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--color-links);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--color-links-hover);
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+  }
+
+/* Main */
+main {
+    margin-top: 100px;
+}
+
+.menu-card-title, .book-table-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
